@@ -1,0 +1,98 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "firstname": "poonam",
+      "lastname": "gadekar",
+      "email": "poonam@gmail.com",
+      "dob": "2022-01-18",
+      "gender": "Male",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "firstname": "nitesh",
+      "lastname": "kale",
+      "email": "nitesh@gmail.com",
+      "dob": "2022-01-18",
+      "gender": "Male",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "firstname": "Dipti",
+      "lastname": "Gadekar",
+      "email": "dipti@gmail.com",
+      "dob": "2022-01-01",
+      "gender": "Female",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "firstname": "neha",
+      "lastname": "chavan",
+      "email": "neha@gmail.com",
+      "dob": "2022-01-02",
+      "gender": "Female",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "firstname": "Aparna",
+      "lastname": " karande",
+      "email": "app@gmail.com",
+      "dob": "2021-12-30",
+      "gender": "Female",
+      "password": "1234",
+      "id": 5
+    }
+  ],
+  "tweets": [
+    {
+      "userid": "poonam@gmail.com",
+      "posttweet": "gfcgfgfgh",
+      "id": 4
+    },
+    {
+      "userid": "poonam@gmail.com",
+      "posttweet": "poonam is good girl",
+      "id": 5
+    },
+    {
+      "userid": "poonam@gmail.com",
+      "posttweet": "nitesh",
+      "id": 6
+    },
+    {
+      "userid": "poonam@gmail.com",
+      "posttweet": "niteshdfbfyh",
+      "id": 7
+    },
+    {
+      "userid": "nitesh@gmail.com",
+      "posttweet": "hi i am nitesh",
+      "id": 8
+    },
+    {
+      "userid": "poonam@gmail.com",
+      "posttweet": "Congratulations neha!!!!!!",
+      "id": 9
+    }
+  ]
+}

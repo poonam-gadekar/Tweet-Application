@@ -1,0 +1,18 @@
+
+
+
+<div class="container">
+    <form [formGroup]="posttweetForm" (ngSubmit)="post()" style="width: 40%;margin-left: 35%;background-color: #eeeeee;padding: 40px;"> 
+          <div class="col-md-12">
+          <label for="post-tweet">Post your Tweet: </label>
+          <input id="post-tweet" type="text" formControlName="posttweet" class="form-control">
+          </div>
+          
+           <div class = "row">
+            <div class="col-md-4" style="margin-top: 10px;"> <input type="submit" class="btn btn-primary" value="post"></div>
+            
+          </div>
+          
+      
+      </form>
+    </div>
